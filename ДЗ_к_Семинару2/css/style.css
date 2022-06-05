@@ -1,0 +1,272 @@
+@font-face {
+    font-family: Special_New;
+    src: url(/fonts/CharisSIL-Italic.ttf);
+  }
+  
+  :root {
+      --wrapper-margin-top: 100px;
+      --wrapper-height: calc(100vh - var(--wrapper-margin-top));
+    --box-shadow-color: #bfbfbf;
+    --background: #fff;
+    --background-body:#A9A9A9;
+    --naming_of:#8a2be2;
+    --tongle:#dbdbdb;
+  }
+  
+  * {
+   font-family:-apple-system, BlinkMacSystemFont, 
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+        'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 12px;
+  }
+  
+  html{
+    overflow-x: hidden;
+  }
+  
+  body{
+    width: 100%;
+    background: var(--background-body);
+    box-sizing: border-box;
+  }
+  
+  
+  body.dark{
+    --box-shadow-color: #cbc6c6;
+    --background: #463b3b;
+    --background-body:#9b9090;
+    --naming_of:#8a2be2;
+    --tongle:#dbdbdb;
+  }
+  
+  .header{
+    
+    background: var(--background);
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: -8px 50px;
+    box-shadow: 0 0 16px 3px var(--box-shadow-color);
+  
+  }
+  
+  h1{
+    font-family:  sans-serif;
+    font-size: 24px;
+    text-align: left;
+    margin: auto;
+    color: rgb(241, 78, 14);
+    
+  
+  }
+  
+  
+  h2{
+    font-family: Special_New;
+    font-size: 25px;
+  }
+
+
+
+  .menu, ul {
+    display: flex;
+    padding: 8px 20px;
+    flex-direction: row;
+    height: 100%;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    width: auto;
+    margin: 0px 20px;
+  }
+
+
+  li{
+    margin: 0 54px;
+  }
+  
+  hr{
+    /* align-content: center; */
+    color: #8a2be2;
+    /* size: 15px; */
+    width: 855px;
+   
+  }
+
+
+
+
+
+
+
+  /* .slides{
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    margin: 6px 146px 6px 146px;
+    padding: auto;
+   
+  } */
+
+  /* .slides img{ */
+    /* border-radius: 10px; */
+    /* display: none; */
+    
+  /* } */
+
+  /* .block {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%; */
+  /* } */
+
+  /* .btnRight{
+      float: right;
+      margin: 517px 67px;
+  } */
+  
+  .container{
+    margin: 270px 50px 5px 50px;
+    padding-top: 10px;
+    background: var(--background);
+    box-shadow: 0 0 16px 3px var(--box-shadow-color);
+    height: fit-content;
+  
+  }
+
+
+  
+  /* .img {
+    margin: 0px 1px 0px 1px;
+    border: 0px 1px 0px 1px;
+    padding: 0px 1px 0px 1px;    
+  } */
+  
+
+
+  /*  */ Как выбрать точно то изображение которое мне нужно, для его смещения либо работы именно с ним??
+
+  /* .img#Ea1{
+    margin: 0px;
+    border: rgb(14, 207, 207);
+    padding: 1px 1px 1px 1px;
+  } */
+
+
+  .img.Ea1{
+    margin: 0px 1px 0px 1px;
+    border: 0px 1px 0px 1px;
+    padding: 0px 1px 0px 1px;
+
+  }
+
+
+  .photo{
+    float: left;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 24px 10px 30px;
+  }
+
+ 
+  /* #toggle-theme-btn {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      padding: 10px;
+      border-radius: 3px;
+      transition: 0.3s; */
+  /* } */
+  
+  /* #toggle-theme-btn:hover {
+      background: var(--tongle);
+  } */
+/*   
+  #toggle-theme-btn img {
+      width: 32px;
+  }
+   */
+  
+  
+  .content{
+    text-align: justify;
+    padding-left: 86px;
+    padding-right: 91px;
+    padding-bottom: 369px;
+      
+  }
+
+  /* .h1{
+    color: brown;
+  } */
+  
+  p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+  }
+  
+  a{
+    color: #4682B4;
+    font-size: 15px;
+  }
+
+  a:hover{
+    color:brown;
+  }
+  
+  a:visited{
+    color:chocolate;
+  }
+  
+  
+  .footer {
+    background:var(--background);
+    display: flex;
+    flex-direction: row;
+    margin: 207px 11px 48px 1px;
+    /* padding: 0 32px; */
+    padding: 0 9px 1px 17px;
+    /* box-shadow: 0 0 16px 3px grey; */
+  }
+  
+  .copyright {
+    border: 0 auto;
+    padding: 20px 54px;
+    /* margin: 8px 357px 50px -45px; */
+    margin:-4px 74px 28px 9px;
+  }
+
+  .top {
+    padding: 20px 9px;
+    margin: 8px 74px 53px 140px;
+  }
+
+  .WhatsApp{
+    padding: 20px 54px;
+    margin: 8px 357px 50px -45px;
+
+  }
+
+  .Telegram{
+    padding: 20px 100px 21px 5px;
+    margin: 7px -206px 33px -170px;
+
+    /* padding: 20px 54px;
+    margin: 8px 357px 50px -45px; */
+
+  }
+
+  
+  @media screen and (min-width:320px) and (max-width:1024px) {
+    html,body,.container,.content,.menu,p, .footer{
+      width: 100%;
+    }
+  }
+  
+  
+  
