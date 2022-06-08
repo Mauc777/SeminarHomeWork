@@ -125,6 +125,7 @@ li{
   margin: 20px 24px 10px 30px;
 }
 
+/* Вот здесь поправка: Задание к Семинару3 -пункт1 */
 #toggle-theme-btn {
 	position: absolute;
 	top: 52px;
