@@ -4,8 +4,8 @@
   }
   
   :root {
-      --wrapper-margin-top: 100px;
-      --wrapper-height: calc(100vh - var(--wrapper-margin-top));
+    --wrapper-margin-top: 100px;
+    --wrapper-height: calc(100vh - var(--wrapper-margin-top));
     --box-shadow-color: #bfbfbf;
     --background: #fff;
     --background-body:#A9A9A9;
@@ -91,7 +91,7 @@
     /* align-content: center; */
     color: #8a2be2;
     /* size: 15px; */
-    width: 855px;
+    width: 100%;
    
   }
 
@@ -137,16 +137,7 @@
   
   }
 
-
-  
-  /* .img {
-    margin: 0px 1px 0px 1px;
-    border: 0px 1px 0px 1px;
-    padding: 0px 1px 0px 1px;    
-  } */
-  
-
-
+ 
   /*  */ Как выбрать точно то изображение которое мне нужно, для его смещения либо работы именно с ним??
 
   /* .img#Ea1{
@@ -169,6 +160,19 @@
     padding: 10px 10px 10px 10px;
     margin: 20px 24px 10px 30px;
   }
+
+
+
+  .img.Ea1{
+    margin: 0px 1px 0px 1px;
+    border: 0px 1px 0px 1px;
+    padding: 0px 1px 0px 1px;
+  }
+
+  
+
+
+
 
  
   /* #toggle-theme-btn {
@@ -201,9 +205,6 @@
       
   }
 
-  /* .h1{
-    color: brown;
-  } */
   
   p{
     font-family: 'Times New Roman', Times, serif;
