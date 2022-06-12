@@ -68,10 +68,12 @@ $travelData = $data['myachievements'];
       <p><?=$startData['hobbies2' ]?></p>
       <p><?=$startData['history' ]?></p>
 
+      
+       <!--  ЗДЕСЬ БЛОК РЕШЕНИЯ ЗАДАЧИ_1 С СЕМИНАРА_4      -->
+      
       <h2 class="titleblog" id="myachievements">Мои достижения:</h2>
       <a href="#"><img id="Ea1" src="images/Eagl.png" alt="Орел"></a>
       <!-- <a href="#"><img id="Ea1" src="images/Eagl.png"  alt="Орел"></a>  -->
-
       <hr>
       <p></p>
       <p></p>
