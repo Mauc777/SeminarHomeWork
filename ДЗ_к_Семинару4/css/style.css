@@ -81,21 +81,22 @@ h2{
 }
 li{
   margin: 0 54px;
+  
 }
 
 
-.slides{
-  width: 600px;
-  height: 300px;
-  position: relative;
-  margin: 6px 146px 6px 146px;
-  padding: 0 auto;
+.slides {
+  width: 1800px;
+  height: 1024px;
+  /* position:static; */
+  margin: 21px 0px 6px 50px;
 }
 
-.slides img{
-  border-radius:10px;
+.slides img {
+  display: none;
 }
-.block{
+
+.slides .block {
   display: block;
   object-fit: cover;
   width: 100%;
@@ -104,47 +105,50 @@ li{
 
 
 
-.btnRight{
+.btnSlide {
   float: right;
-  margin: 311px 67px;
+  margin: 10px 50px;
 }
 
-.container{
-  margin: 535px 50px 5px 50px;
+.noclass{
+  visibility: hidden;
+}
+
+.container {
+  margin: 50px 50px 5px 50px;
   padding-top: 10px;
   background: var(--background);
   box-shadow: 0 0 16px 3px var(--box-shadow-color);
   height: fit-content;
-
 }
 
-
-.photo{
+.photo [type="image"]{
   float: left;
+  margin: 90px 24px 10px 50px;
   padding: 10px 10px 10px 10px;
-  margin: 20px 24px 10px 30px;
 }
 
-/* Вот здесь поправка: Задание к Семинару3 -пункт1 */
 #toggle-theme-btn {
-	position: absolute;
-	top: 52px;
-	left: 57px;
-	border: none;
-	background-color: transparent;
-	cursor: pointer;
-	padding: 10px;
-	border-radius: 3px;
-	transition: 0.3s;
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+#toggle-theme-btn[type="image"]{
+	width: 10px;
 }
 
 #toggle-theme-btn:hover {
 	background: var(--tongle);
 }
 
-#toggle-theme-btn img {
-	width: 32px;
-}
+
 
 
 
@@ -164,6 +168,7 @@ p{
 a{
   color: #4682B4;
   font-size: 15px;
+  text-decoration: none;
 }
 a:hover{
   color:brown;
@@ -197,5 +202,3 @@ a:visited{
     width: 100%;
   }
 }
-
-
