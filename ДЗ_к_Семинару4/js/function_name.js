@@ -1,5 +1,5 @@
 
-
+// ПРиветствие
 let name1= prompt("Введи имя, друг мой ");
 
 function ShowBarev(){
