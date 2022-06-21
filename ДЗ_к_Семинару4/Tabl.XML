@@ -1,0 +1,47 @@
+<!-- Название 	                    Автор     	Количество страниц	Дата.изд Цена руб
+  
+Камил видит руками	        Томаш Малковски	    146	            2019	863
+Вероятности и неприятности	Сергей Самойленко	134	            2022	1055
+Когда жизнь сбивает с ног	Расс Хэррис	        80	            2021	945
+Цветы в темноте	Cестра      Данг Нгием	        124	            2020	1027
+Стратегии перемен	        Джон Коттер	        102	            2022	1418 -->
+<!---->
+
+<?xml version="1.0"?>
+<Company>
+  <Book>
+      <Name> Камил видит руками </Name>
+      <Aothor> Томаш Малковски </Aothor>
+      <NomberOffPage> 146 </NomberOffPage>
+      <the_date> 2019 </the_date>
+      <Price> 863 </Price>
+  </Book>
+  <Book>
+      <Name> Камил видит руками </Name>
+      <Aothor> Томаш Малковски </Aothor>
+      <NomberOffPage> 146 </NomberOffPage>
+      <the_date> 2019 </the_date>
+      <Price> 863 </Price>
+  </Book>
+  <Book>
+      <Name> Камил видит руками </Name>
+      <Aothor> Томаш Малковски </Aothor>
+      <NomberOffPage> 146 </NomberOffPage>
+      <the_date> 2019 </the_date>
+      <Price> 863 </Price>
+  </Book>
+  <Book>
+      <Name> Камил видит руками </Name>
+      <Aothor> Томаш Малковски </Aothor>
+      <NomberOffPage> 146 </NomberOffPage>
+      <the_date> 2019 </the_date>
+      <Price> 863 </Price>
+  </Book>
+  <Book>
+      <Name> Камил видит руками </Name>
+      <Aothor> Томаш Малковски </Aothor>
+      <NomberOffPage> 146 </NomberOffPage>
+      <the_date> 2019 </the_date>
+      <Price> 863 </Price>
+  </Book>
+</Company>
