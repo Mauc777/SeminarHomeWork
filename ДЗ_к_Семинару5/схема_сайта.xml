@@ -1,0 +1,17 @@
+<!-- схема не моя -онп с семинара -->
+<urlset xmlns="https://www.sitemap.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+  <loc>https://cc95847.tmweb.ru/</loc>
+  <lastmod>2022-06-16T23:24:00+03:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <image:image>
+  <image:loc>https://cc95847.tmweb.ru/images/nature1.jpeg</image:loc>
+  </image:image>
+  <image:image>
+  <image:loc>https://cc95847.tmweb.ru/images/nature2.jpg</image:loc>
+  </image:image>
+  <image:image>
+  <image:loc>https://cc95847.tmweb.ru/images/nature3.jpg</image:loc>
+  </image:image>
+  </url>
+  </urlset>
